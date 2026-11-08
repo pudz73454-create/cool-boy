@@ -1,9 +1,7 @@
 # COOL BOY
 
-Public frontend for GitHub Pages. Publish the main branch from the repository root.
+Public website: https://pudz73454-create.github.io/cool-boy/
 
-The booking API, customer journal, Excel export, images and settings remain on the existing backend at https://cool-boy.focalbracelet.chatgpt.site.
+Bookings, services, photos and settings use a dedicated backend with an independent database. This website does not use or change the original ChatGPT website database.
 
-Before enabling bookings, set the backend PUBLIC_FRONTEND_ORIGIN to the exact Pages origin and deploy the restricted CORS adapter. Never put the private customer journal link or server credentials into this repository.
-
-Edits to service names, prices, photos, working hours and duration are loaded from the backend automatically.
+The private customer journal link is provided separately to the owner. Never commit private links, credentials or client records.
